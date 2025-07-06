@@ -87,6 +87,8 @@ Our primary colour is a soft green to evoke wellness and approachability. All hu
 
 Background and illustrative images (generated via ChatGPT) depict friendly group lifting with an instructor present. The cool tones harmonize with our colour palette and reinforce a fun, supportive environment.
 
+Favicon icons and logo used are from [Flaticon](https://www.flaticon.com/free-icons) 
+
 ### Responsiveness
 
 We use Bootstrap’s grid and custom media queries to ensure the layout adapts gracefully across all screen sizes:
