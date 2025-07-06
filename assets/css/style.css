@@ -1,0 +1,130 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #05668D; /* blue */
+    --secondary-color: #6AB49C; /* green */
+    --tertiary-color: #6AD5CB; /* light green */
+   /* --highlight-color: #416a8e; /* blue */
+ /*   --highlight-color-light: #7a9fc2; /* light blue */
+}
+
+/* Global styles */
+
+body {
+    font-family: var(--primary-font);
+    padding-top: 57.15px; /* pushes the top of the header down under fixed navbar */
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+p {
+  text-align: justify;
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
+}
+
+.section {
+    padding-top: 4rem; /* prevent navbar overlap */
+}
+
+/* Buttons */
+
+.custom-button-filled {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.custom-button-outline {
+    border: 3px solid var(--highlight-color);
+    padding: 7px 25px;
+    color: var(--highlight-color)
+}
+
+.custom-button-outline:hover {
+    background-color: var(--highlight-color);
+    color: white
+}
+
+/* Navbar */
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
+
+/* Header */
+
+#header .lead {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+}
+
+#header .display-3 {
+color: var(--primary-color);
+}
+
+
+
+
+
+/* 2) Mobile only: add gutters AND make sure they’re still justified */
+@media (max-width: 576px) {
+
+h1.display-3.fw-bold {
+
+    font-size: clamp(3rem, 8vw, 4rem);
+  line-height: 1.1;
+}
+
+  p {
+    /* custom gutter */
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+
+  #header .lead {
+    text-align: center;
+  }
+
+.header-image {
+
+    /* adding padding to the left and right of the header image to match with the header text  */
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+
+}
