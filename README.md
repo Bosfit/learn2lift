@@ -1,10 +1,10 @@
 # Learn 2 Lift: Master the Basics, Build Your Confidence
 
-Want to learn how to lift but not sure where to start? Join our Learn 2 Lift class! This interactive, beginner-friendly session is designed to teach you the fundamentals and proper techniques of the main compound lifts—like squats, deadlifts, bench press, and overhead press—in a supportive and fun environment.
+Want to learn how to lift but not sure where to start? Join our Learn 2 Lift class! This interactive, beginner-friendly session is designed to teach you the fundamentals and proper techniques of the main compound lifts like squats, deadlifts, bench press, and overhead press—in a supportive and fun environment.
 
 We break down each movement step-by-step, giving you hands-on guidance and practical tips you can use right away. You'll learn how to lift safely, avoid common mistakes, and build the foundation for long-term progress, all while connecting with others who are starting their own lifting journeys.
 
-No experience or fancy gear required—just bring yourself and a willingness to learn! Whether you’re looking to get stronger, move better, or simply try something new, Learn 2 Lift is the perfect first step.
+No experience or fancy gear required, just bring yourself and a willingness to learn! Whether you’re looking to get stronger, move better, or simply try something new, Learn 2 Lift is the perfect first step.
 
 ---
 

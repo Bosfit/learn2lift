@@ -16,7 +16,7 @@
 
 body {
     font-family: var(--primary-font);
-    padding-top: 57.15px; /* pushes the top of the header down under fixed navbar */
+    padding-top: 45px; /* pushes the top of the header down under fixed navbar */
 }
 
 h1,
@@ -93,7 +93,57 @@ p {
 color: var(--primary-color);
 }
 
+.main-header {
 
+    padding-bottom: 20px;
+}
+
+
+
+/*Benefits Sections*/
+.main {
+
+    padding-top:10px;
+}
+
+#benefits {
+    padding-top: 14px;
+    padding-bottom:40px;
+}
+
+.card-title {
+
+font-size: 30px;
+
+}
+
+
+div.col-12.col-md-6.col-xl-3 {
+                          
+padding-bottom:20PX;
+
+}
+
+
+img.card-img-top {
+
+  width: 100%;              
+  height: 20rem;             
+  object-fit: cover;       
+  display: block;  
+}
+
+h4.card-title.display-5.fw-bold {
+
+ color: var(--primary-color);
+
+}
+
+div.card-body.text-center {
+
+height: 6rem; 
+
+}
 
 
 
@@ -123,6 +173,14 @@ h1.display-3.fw-bold {
 
     padding-left: 1rem;
     padding-right: 1rem;
+
+}
+
+/* Benefits Section */
+
+div.card-body.text-center {
+
+height: 4rem; 
 
 }
 
