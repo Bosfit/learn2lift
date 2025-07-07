@@ -67,7 +67,6 @@ No experience or fancy gear required, just bring yourself and a willingness to l
 
 ## Wireframes
 
-_(Add your wireframe images or descriptions here.)_
 
 ---
 
