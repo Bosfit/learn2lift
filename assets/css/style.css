@@ -146,6 +146,37 @@ height: 6rem;
 }
 
 
+/* Classes Section */
+
+#class-section {
+    padding-top: 14px;
+    padding-bottom:40px;
+}
+
+#classes {
+    background: url('../images/shoulder-press-class.png') no-repeat center/cover;
+    /* Handles responsivity without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#classes div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 25px;
+    text-align: center;
+    /* Creates a grid of meetup time dives over the background image */
+    border: 14px solid white;
+}
+
+h4.fa-exercise.display-5.fw-bold {
+
+font-size: 25px;
+padding-bottom: 20px;
+
+}
+
+
 
 /* 2) Mobile only: add gutters AND make sure they’re still justified */
 @media (max-width: 576px) {
