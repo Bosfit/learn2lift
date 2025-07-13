@@ -95,7 +95,7 @@ color: var(--primary-color);
 
 .main-header {
 
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 
@@ -108,12 +108,12 @@ color: var(--primary-color);
 
 #benefits {
     padding-top: 14px;
-    padding-bottom:40px;
+    padding-bottom:32px;
 }
 
 .card-title {
 
-font-size: 30px;
+font-size: 24px;
 
 }
 
@@ -141,7 +141,7 @@ h4.card-title.display-5.fw-bold {
 
 div.card-body.text-center {
 
-height: 6rem; 
+height: 4rem; 
 
 }
 
@@ -177,8 +177,34 @@ padding-bottom: 20px;
 }
 
 
+/* Footer / contact */
 
-/* 2) Mobile only: add gutters AND make sure they’re still justified */
+#contact {
+    background-color: var(--secondary-color);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact .sub-heading-color {
+    color: var(--highlight-color-light);
+}
+
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .table-dark * {
+    background-color: transparent;
+}
+
+
+/* 2) Mobile only */
 @media (max-width: 576px) {
 
 h1.display-3.fw-bold {
@@ -193,10 +219,21 @@ h1.display-3.fw-bold {
     padding-right: 1rem;
   }
 
+  #benefits {
+    padding-top: 14px;
+    padding-bottom:3px;
+}
+
 
   #header .lead {
     text-align: center;
   }
+
+
+  .card-title {
+    font-size: 25px;
+}
+
 
 .header-image {
 
@@ -211,8 +248,13 @@ h1.display-3.fw-bold {
 
 div.card-body.text-center {
 
-height: 4rem; 
+height: 6rem; 
 
+}
+
+.col-6 {
+
+    padding-bottom: 23px;
 }
 
 
