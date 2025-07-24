@@ -19,7 +19,16 @@ No experience or fancy gear required, just bring yourself and a willingness to l
   - [Typography](#typography)  
   - [Colour Scheme](#colour-scheme)  
   - [Images](#images)  
-  - [Responsiveness](#responsiveness)  
+  - [Responsiveness](#responsiveness) 
+- [Features](#features)   
+  - [Navbar](#navbar) 
+  - [Header](#header) 
+  - [Main Section](#main-section) 
+  - [Footer](#footer) 
+- [Technologies Used](#technologies-used)  
+  - [Languages](#languages)  
+  - [Libraries & Framework](#libraries-framework)  
+  - [Tools](#tools)  
 
 ---
 
@@ -97,3 +106,45 @@ We use Bootstrap’s grid and custom media queries to ensure the layout adapts g
 ---
 
 - [⬆️ Back to the top](#learn 2 lift-master-the-basics-build-your-confidence)
+
+---
+
+## Features
+
+Layout is easy to use and navigate. It is designed in a way that everything lines up and sections are split and displayed equally. Users can easily navigate between the different sections of the website and it is kept in the same format to keep it simple to understand with access to additional features like contact information.
+
+### Navbar
+
+Navbar is responsive to different screen sizes with clickable features that takes you to a specific section on the website but keeps users on the same page.
+
+![Navbar Large Screen](README-docs/navbar.png)
+
+![Navbar Small Screen](README-docs/navbar_2.png)
+
+### Header
+
+
+
+---
+
+
+## Technologies Used
+
+### Languages
+
+- HTML
+- CSS
+- JS
+- BOOTSTRAP
+
+### Libraries & Framework
+
+[Google Fonts](https://fonts.google.com/)
+[Flaticon](https://www.flaticon.com/free-icons)  
+
+### Tools
+
+[Github](https://github.com/)
+[Balsamiq](https://balsamiq.com/)
+[W3C HTML Validation Service](https://validator.w3.org/)
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
