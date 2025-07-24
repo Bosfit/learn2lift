@@ -139,12 +139,12 @@ Navbar is responsive to different screen sizes with clickable features that take
 
 ### Libraries & Framework
 
-[Google Fonts](https://fonts.google.com/)
-[Flaticon](https://www.flaticon.com/free-icons)  
+- [Google Fonts](https://fonts.google.com/)
+- [Flaticon](https://www.flaticon.com/free-icons)  
 
 ### Tools
 
-[Github](https://github.com/)
-[Balsamiq](https://balsamiq.com/)
-[W3C HTML Validation Service](https://validator.w3.org/)
-[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [Github](https://github.com/)
+- [Balsamiq](https://balsamiq.com/)
+- [W3C HTML Validation Service](https://validator.w3.org/)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
