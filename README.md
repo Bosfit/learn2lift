@@ -119,9 +119,17 @@ The website is built on one page to make it easy to navigate with all the inform
 
 Navbar is responsive to different screen sizes with clickable features that takes you to a specific section on the website but keeps users on the same page.
 
-![Navbar Large Screen](README-docs/navbar.png)
+<details>
+  <summary>Navbar Large Screen</summary>
 
-![Navbar Small Screen](README-docs/navbar_2.png)
+  ![Navbar Large Screen](README-docs/navbar.png)
+</details>
+
+<details>
+  <summary>Navbar Small Screen</summary>
+
+  ![Navbar Small Screen](README-docs/navbar_2.png)
+</details>
 
 ### Header
 
@@ -129,9 +137,17 @@ Header includes the name of the class/brand, description and an image displaying
 
 I tried to make sure that in large, medium and small screen that the title header, text and image all aligned together with equal padding for each. I justified the text so it aligns too.
 
-![Header Large Screen](README-docs/header_large.png)
+<details>
+  <summary>Header Large Screen</summary>
 
-![Header Small Screen](README-docs/header_medium.png)
+  ![Header Large Screen](README-docs/header_large.png)
+</details>
+
+<details>
+  <summary>Header Small Screen</summary>
+
+  ![Header Small Screen](README-docs/header_medium.png)
+</details>
 
 
 ### Main Section
@@ -140,26 +156,53 @@ The main section includes why us, benefits and classes sections. I made it simil
 
 In terms of layout, I tried again to align all the boxes together and in line with each other. I wanted to make the website to look very clean, professional and organised to represent the brand.
 
-![Main Section Large Screen](README-docs/mainsection_large.png)
+<details>
+  <summary>Main Section Large Screen</summary>
 
-![Main Section Small Screen](README-docs/mainsection_small2.png)
+  ![Main Section Large Screen](README-docs/mainsection_large.png)
+</details>
 
-![Main Section Small Screen 2](README-docs/mainsection_small.png)
+<details>
+  <summary>Main Section Small Screen</summary>
+
+  ![Main Section Small Screen](README-docs/mainsection_small2.png)
+</details>
+
+<details>
+  <summary>Main Section Small Screen 2</summary>
+
+  ![Main Section Small Screen 2](README-docs/mainsection_small.png)
+</details>
 
 For the boxes surrounding the text and image, each section has their own padding. As you can see from the why us section, the large screen has a smaller bottom padding than when it is small screen and small screen has more bottom padding, that is due to adapting to the different mobile layouts like samsung, apple etc. As you can see, the Samsung phone layout will take more space within the box than an Iphone and both bottom padding is the same.
 
-![Main Section Samsung Phone Screen](README-docs/samsung_galaxy.png)
+<details>
+  <summary>Main Section Samsung Phone Screen</summary>
 
-![Main Section Iphone Screen](README-docs/iphone_XR.png)
+  ![Main Section Samsung Phone Screen](README-docs/samsung_galaxy.png)
+</details>
 
+<details>
+  <summary>Main Section Iphone Screen</summary>
+
+  ![Main Section Iphone Screen](README-docs/iphone_XR.png)
+</details>
 
 ### Footer
 
 I made the footer green toned to continue with blue and green toned theme and to separate to the above main section where I mostly used blue. The footer is very simple with their contact information and opening times.
 
-![Footer Large Screen](README-docs/footer_large.png)
+<details>
+  <summary>Footer Large Screen</summary>
 
-![Footer Small Screen](README-docs/footer_small.png)
+  ![Footer Large Screen](README-docs/footer_large.png)
+</details>
+
+<details>
+  <summary>Footer Small Screen</summary>
+
+  ![Footer Small Screen](README-docs/footer_small.png)
+</details>
 
 ---
 
