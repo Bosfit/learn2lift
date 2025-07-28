@@ -113,6 +113,8 @@ We use Bootstrap’s grid and custom media queries to ensure the layout adapts g
 
 Layout is easy to use and navigate. It is designed in a way that everything lines up and sections are split and displayed equally. Users can easily navigate between the different sections of the website and it is kept in the same format to keep it simple to understand with access to additional features like contact information.
 
+The website is built on one page to make it easy to navigate with all the information one after the other to make it flow and easily accessible.
+
 ### Navbar
 
 Navbar is responsive to different screen sizes with clickable features that takes you to a specific section on the website but keeps users on the same page.
@@ -123,7 +125,41 @@ Navbar is responsive to different screen sizes with clickable features that take
 
 ### Header
 
+Header includes the name of the class/brand, description and an image displaying what the class looks like. I designed it in a way that the user knew straight away within 5 seconds by looking at the header what the brand was, what it consist of and what to expect as well as adding text to persuade the user to join. In large screen, I wanted the text to be next to the image instead of displaying it underneath as I felt like it explained the text more having the image there. 
 
+I tried to make sure that in large, medium and small screen that the title header, text and image all aligned together with equal padding for each. I justified the text so it aligns too.
+
+![Header Large Screen](README-docs/header_large.png)
+
+![Header Small Screen](README-docs/header_medium.png)
+
+
+### Main Section
+
+The main section includes why us, benefits and classes sections. I made it similar and simple in terms of layout so it is easy to follow and kept it the same for each section so user knows what to expect for the next section. The only differences I made was the look itself where I used illustration for the why us to best represent the text, images for the benefits to show off the class and an overlay image for the classes section to make each section feel separate from the other, create their own identity.
+
+In terms of layout, I tried again to align all the boxes together and in line with each other. I wanted to make the website to look very clean, professional and organised to represent the brand.
+
+![Main Section Large Screen](README-docs/mainsection_large.png)
+
+![Main Section Small Screen](README-docs/mainsection_small2.png)
+
+![Main Section Small Screen 2](README-docs/mainsection_small.png)
+
+For the boxes surrounding the text and image, each section has their own padding. As you can see from the why us section, the large screen has a smaller bottom padding than when it is small screen and small screen has more bottom padding, that is due to adapting to the different mobile layouts like samsung, apple etc. As you can see, the Samsung phone layout will take more space within the box than an Iphone and both bottom padding is the same.
+
+![Main Section Samsung Phone Screen](README-docs/samsung_galaxy.png)
+
+![Main Section Iphone Screen](README-docs/iphone_XR.png)
+
+
+### Footer
+
+I made the footer green toned to continue with blue and green toned theme and to separate to the above main section where I mostly used blue. The footer is very simple with their contact information and opening times.
+
+![Footer Large Screen](README-docs/footer_large.png)
+
+![Footer Small Screen](README-docs/footer_small.png)
 
 ---
 
