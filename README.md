@@ -23,7 +23,9 @@ No experience or fancy gear required, just bring yourself and a willingness to l
 - [Features](#features)   
   - [Navbar](#navbar) 
   - [Header](#header) 
-  - [Main Section](#main-section) 
+  - [Main Section](#main-section)
+  - [Why Us Section](#why-us-section)
+  - [Classes Section](#classes-section)
   - [Footer](#footer) 
 - [Technologies Used](#technologies-used)  
   - [Languages](#languages)  
@@ -174,7 +176,9 @@ In terms of layout, I tried again to align all the boxes together and in line wi
   ![Main Section Small Screen 2](README-docs/mainsection_small.png)
 </details>
 
-For the boxes surrounding the text and image, each section has their own padding. As you can see from the why us section, the large screen has a smaller bottom padding than when it is small screen and small screen has more bottom padding, that is due to adapting to the different mobile layouts like samsung, apple etc. As you can see, the Samsung phone layout will take more space within the box than an Iphone and both bottom padding is the same.
+### Why Us Section
+
+For the boxes surrounding the text and image, each section has their own padding. As you can see from the why us section, the large screen has a smaller bottom padding than when it is small screen and small screen has more bottom padding, that is due to adapting to the different mobile layouts like samsung, apple etc. As you can see, the Samsung phone layout will take more space within the box than an Iphone even though both bottom padding are the same.
 
 <details>
   <summary>Main Section Samsung Phone Screen</summary>
@@ -187,6 +191,19 @@ For the boxes surrounding the text and image, each section has their own padding
 
   ![Main Section Iphone Screen](README-docs/iphone_XR.png)
 </details>
+
+### Classes Section
+
+The classes section contains buttons that takes you to a booking system website where users can book the class they would like. The buttons are clear and eye catching so the users are aware of them. There are 4 buttons, each taking you to that specific class instead of one button to help save time for the user and straight to the point.
+
+
+<details>
+  <summary>Classes Booking Buttons</summary>
+
+  ![Classes Booking Buttons](README-docs/class_section_buttons.png)
+</details>
+
+
 
 ### Footer
 
