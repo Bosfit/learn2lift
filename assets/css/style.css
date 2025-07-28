@@ -99,6 +99,48 @@ color: var(--primary-color);
 }
 
 
+/* Why us sections */
+
+#whyus {
+    padding-top: 14px;
+    padding-bottom:32px;
+}
+
+div.whyus.card-body.text-center {
+    height: 12rem;
+    padding-top:30px;
+}
+
+h4.whyus.card-title {
+
+font-size: 20px;
+
+}
+
+p.whyus.card-text {
+
+font-size:14px;
+
+}
+
+
+/* why us icons size */
+img.card-img-top.whyus {
+
+  width: 165px;
+  height: 195px;
+  object-fit: cover;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:25px;
+  padding-bottom:10px;
+
+}
+
+
+
+
 
 /*Benefits Sections*/
 .main {
@@ -203,6 +245,22 @@ padding-bottom: 20px;
     background-color: transparent;
 }
 
+h3.sub-heading-color {
+
+    margin-bottom: 1rem;
+
+}
+
+
+
+
+/*Responsive header title, removes break for tablet so title is longer */
+@media (min-width: 577px) and (max-width: 991px) {
+  .responsive-br {
+    display: none;
+  }
+}
+
 
 /* 2) Mobile only */
 @media (max-width: 576px) {
@@ -213,11 +271,14 @@ h1.display-3.fw-bold {
   line-height: 1.1;
 }
 
+/* 
   p {
-    /* custom gutter */
+    custom gutter
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
+  */
 
   #benefits {
     padding-top: 14px;
@@ -231,7 +292,7 @@ h1.display-3.fw-bold {
 
 
   .card-title {
-    font-size: 25px;
+    font-size: 23px;
 }
 
 
@@ -244,7 +305,81 @@ h1.display-3.fw-bold {
 
 }
 
+/* header paragraph text Section */
+
+p.my-4.side-padding {
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+/* Why Us Section */
+
+.col-6 {
+
+    padding-bottom: 23px;
+}
+
+#whyus {
+    padding-top: 14px;
+    padding-bottom: 10px;
+}
+
+   /* Padding for the why us boxes */
+section#whyus.container.section {
+
+ padding-left: 22px;
+ padding-right: 22px;
+
+}
+
+h4.card-title.display-5.fw-bold {
+    color: var(--primary-color);
+    font-size: 19px;
+    padding-bottom:12px;
+}
+
+p.card-text {
+
+text-align:center;
+font-size: 12px;
+
+}
+
+div.whyus.card-body.text-center {
+  /* never below 20rem, prefer 40vh, never above 26rem */
+   height: clamp(24rem, 21vh, 23rem);
+}
+
+p.whyus.card-text {
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+
+   /* why us icons size */
+img.card-img-top.whyus {
+
+ width: 100px;
+ height: 140px;
+
+}
+
+
+
 /* Benefits Section */
+
+   /* Padding for the benefits boxes */
+section#benefits.container.section {
+
+ padding-left: 22px;
+ padding-right: 22px;
+
+}
 
 div.card-body.text-center {
 
@@ -257,5 +392,41 @@ height: 6rem;
     padding-bottom: 23px;
 }
 
+
+}
+
+
+
+/* Tablet size */
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+    h1.display-3.fw-bold {
+
+        font-size: 70px;
+    }
+
+    p.lead.display-6.sub-heading-color {
+
+        text-align:center;
+        font-size: 26px;
+    }
+
+    div.col-6.col-md-6.col-xl-3 {
+
+        padding-bottom: 25px;
+    }
+
+    p.whyus.card-text {
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+h4.card-title.display-5.fw-bold {
+padding-bottom:10px;
+
+}
 
 }
