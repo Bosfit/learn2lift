@@ -33,7 +33,16 @@ No experience or fancy gear required, just bring yourself and a willingness to l
   - [Tools](#tools)  
 - [Testing](#testing)  
   - [Bugs](#bugs)
-  - [Responsiveness Tests](#responsiveness-tests)    
+  - [Responsiveness Tests](#responsiveness-tests) 
+  - [Code Validation](#code-validation)  
+    - [HTML](#html) 
+    - [CSS](#css)  
+  - [User Story Testing](#user-story-testing) 
+  - [Accessibility Testing](#accessibility-testing)   
+  - [Performance Testing](#performance-testing)  
+  - [Browser Testing](#browser-testing)  
+- [Deployment](#deployment)    
+
 
 ---
 
@@ -257,9 +266,13 @@ I made the footer green toned to continue with blue and green toned theme and to
 
 ### Bugs
 
+The website was thoroughly tested by using the console logs to ensure within Google to ensure if there are any errors, as shown in the image below, you can see that there are no bugs or errors.
+
+![Console Log](README-docs/console_log.png)
+
 ### Responsiveness Tests
 
-To test the responsiveness, I have launched the website very early on. I tested the deployed versions of the website using external website [Responsive Design Checker](https://responsivedesignchecker.com/) and looked at how the website looks within different devices and sizes. Below is the result.
+To test the responsiveness, I tested the deployed versions of the website using external website [Responsive Design Checker](https://responsivedesignchecker.com/) and looked at how the website looks within different devices and sizes. Below is the result.
 
 <details>
   <summary>Responsiveness Big Screen</summary>
@@ -295,3 +308,83 @@ Final Test Results
 | xl   | HP Stream Laptop      | Good       | Good               | Good              | Good          |                                                              |
 | xxl  | Dell Lattitude        | Good       | Good               | Good              | Good          |                                                              |
 | xxl  | Desktop               | Good       | Good               | Good              | Good          |                                                              |
+
+
+### Code Validation
+
+#### HTML
+
+I used [W3C HTML Validation Service](https://validator.w3.org/) to test my HTML files.
+
+I tested my index.html file and it came back with some errors and warnings, mainly in regards to my main element as shown below.
+
+![HTML Validation](README-docs/html_validation.png)
+
+Below is the updated version after I fixed the errors. I’ve redesigned the code to make sure all of my page content under a single <main id="main"> and removed the extra <main> tags. The Benefits and Classes sections now live inside that one <main>, separated by <hr>s. Each section retains its unique id (whyus, benefits, class-section), so there are no duplicate IDs.
+
+![HTML Validation Correct](README-docs/html_validation_correct.png)
+
+#### CSS
+
+I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to test my CSS files.
+
+I tested my style.css file and it came back with no errors.
+
+![CSS Validation](README-docs/css_validation.png)
+
+
+### User Story Testing
+
+
+
+
+### Accessibility Testing
+
+I used the WAVE Tool to test my website and to tell me if web content on my website is accessible to individuals with diverse needs.
+
+No big errors were raised but there were some contrast errors and alerts displayed.
+
+[WAVE Tool](https://wave.webaim.org/)
+
+![WAVE Tool](README-docs/wave_tool_testing.png)
+
+I made some changes to my code and layout of the website to reduce or get rid of the errors and alerts that I got as shown below.
+
+![WAVE Tool](README-docs/)
+
+
+
+### Performance Testing
+
+I used [PageSpeed Insights](https://pagespeed.web.dev/) to test the performance of my website that includes accessibility, best practices and SEO for both mobile and desktop.
+
+The accessibility, best practices and SEO have came back all green but the performance came back with amber. The desktop has a 87 performance and mobile has 69 performance.
+
+Below is the screenshot of the stats and the some of the components that have reduced the performance of the website in desktop and mobile.
+
+![Performance Testing Desktop](README-docs/performancetesting_desktop.png)
+
+<details>
+  <summary>Performance Testing Desktop</summary>
+
+  ![Performance Testing Desktop](README-docs/performancetesting_desktop.png)
+</details>
+
+
+![Performance Testing Mobile](README-docs/performancetesting_mobile.png)
+
+<details>
+  <summary>Performance Testing Mobile</summary>
+
+  ![Performance Testing Mobile](README-docs/performancetesting_mobile.png)
+</details>
+
+I would like to improve the performance of my website on desktop and mobile but unfortunately it is out of my skills reach at the moment to fix the problems so I will leave it at amber which doesn't affect much of the website as everything still works at a good standard.
+
+### Browser Testing
+
+
+
+
+
+## Deployment
