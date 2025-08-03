@@ -282,17 +282,17 @@ To test the responsiveness, I have launched the website very early on. I tested 
 
 Final Test Results
 
-| Size | Device Example         | Navigation | Element Alignments | Content Placement | Functionality | Notes                                              |
-|------|-----------------------|------------|--------------------|-------------------|---------------|----------------------------------------------------|
-| sm   | Samsung Galaxy S20    | Good       | Good               | Good              | Good          |                                                    |
-| sm   | iPhone 11 PRO         | Good       | Good               | Good              | Good          | Updated font size of the start area                |
-| sm   | iPhone 13 PRO MAX     | Good       | Good               | Good              | Good          | Updated header bottom margin to fit quiz container |
-| md   | iPad MINI             | Good       | Good               | Good              | Good          |                                                    |
-| md   | Galaxy Tab S7         | Good       | Good               | Good              | Good          |                                                    |
-| md   | iPad Air              | Good       | Good               | Good              | Good          |                                                    |
-| lg   | iPad Pro              | Good       | Good               | Good              | Good          |                                                    |
-| xl   | Mackbook Air          | Good       | Good               | Good              | Good          |                                                    |
-| xl   | HP Stream Laptop      | Good       | Good               | Good              | Good          |                                                    |
-| xxl  | Dell Lattitude        | Good       | Good               | Good              | Good          | Updated font weight for support headings           |
-| xxl  | Desktop               | Good       | Good               | Good              | Good          |                                                    |
-
+| Size | Device Example         | Navigation | Element Alignments | Content Placement | Functionality | Notes                                                        |
+|------|-----------------------|------------|--------------------|-------------------|---------------|--------------------------------------------------------------|
+| sm   | Samsung Galaxy S6     | Good       | Good               | Good              | Good          | Updated font size of the why us area to fit inside the box   |
+| sm   | iPhone 6              | Good       | Good               | Good              | Good          | Updated font size of the why us area to fit inside the box   |
+| sm   | iPhone 13 PRO MAX     | Good       | Good               | Good              | Good          | Updated header bottom margin to fit quiz container           |
+| md   | iPad MINI             | Good       | Good               | Good              | Good          |                                                              |
+| md   | Galaxy Tab S7         | Good       | Good               | Good              | Good          |                                                              |
+| md   | iPad Air              | Good       | Good               | Good              | Good          |                                                              |
+| lg   | iPad Pro              | Good       | Good               | Good              | Good          |                                                              |
+| xl   | Mackbook Air          | Good       | Good               | Good              | Good          |                                                              |
+| xl   | HP Stream Laptop      | Good       | Good               | Good              | Good          |                                                              |
+| xxl  | Dell Lattitude        | Good       | Good               | Good              | Good          | Updated font weight for support headings                     |
+| xxl  | Desktop               | Good       | Good               | Good              | Good          |                                                              |
+                                                |
