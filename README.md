@@ -286,13 +286,12 @@ Final Test Results
 |------|-----------------------|------------|--------------------|-------------------|---------------|--------------------------------------------------------------|
 | sm   | Samsung Galaxy S6     | Good       | Good               | Good              | Good          | Updated font size of the why us area to fit inside the box   |
 | sm   | iPhone 6              | Good       | Good               | Good              | Good          | Updated font size of the why us area to fit inside the box   |
-| sm   | iPhone 13 PRO MAX     | Good       | Good               | Good              | Good          | Updated header bottom margin to fit quiz container           |
+| sm   | iPhone 13 PRO MAX     | Good       | Good               | Good              | Good          |                                                              |
 | md   | iPad MINI             | Good       | Good               | Good              | Good          |                                                              |
 | md   | Galaxy Tab S7         | Good       | Good               | Good              | Good          |                                                              |
 | md   | iPad Air              | Good       | Good               | Good              | Good          |                                                              |
 | lg   | iPad Pro              | Good       | Good               | Good              | Good          |                                                              |
 | xl   | Mackbook Air          | Good       | Good               | Good              | Good          |                                                              |
 | xl   | HP Stream Laptop      | Good       | Good               | Good              | Good          |                                                              |
-| xxl  | Dell Lattitude        | Good       | Good               | Good              | Good          | Updated font weight for support headings                     |
+| xxl  | Dell Lattitude        | Good       | Good               | Good              | Good          |                                                              |
 | xxl  | Desktop               | Good       | Good               | Good              | Good          |                                                              |
-                                                |
