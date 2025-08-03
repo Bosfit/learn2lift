@@ -320,7 +320,7 @@ I tested my index.html file and it came back with some errors and warnings, main
 
 ![HTML Validation](README-docs/html_validation.png)
 
-Below is the updated version after I fixed the errors. I’ve redesigned the code to make sure all of my page content under a single <main id="main"> and removed the extra <main> tags. The Benefits and Classes sections now live inside that one <main>, separated by <hr>s. Each section retains its unique id (whyus, benefits, class-section), so there are no duplicate IDs.
+Below is the updated version after I fixed the errors. I’ve redesigned the code to make sure all of my page content under a single main element and removed the extra main tags. The Benefits and Classes sections now live inside that one main, separated by hr's tags. Each section retains its unique id (whyus, benefits, class-section), so there are no duplicate IDs.
 
 ![HTML Validation Correct](README-docs/html_validation_correct.png)
 
