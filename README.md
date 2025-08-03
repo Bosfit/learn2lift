@@ -340,11 +340,9 @@ I tested my style.css file and it came back with no errors.
 
 ### Accessibility Testing
 
-I used the WAVE Tool to test my website and to tell me if web content on my website is accessible to individuals with diverse needs.
+I used the [WAVE Tool](https://wave.webaim.org/) to test my website and to tell me if web content on my website is accessible to individuals with diverse needs.
 
 No big errors were raised but there were some contrast errors and alerts displayed.
-
-[WAVE Tool](https://wave.webaim.org/)
 
 ![WAVE Tool](README-docs/wave_tool_testing.png)
 
