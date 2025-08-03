@@ -365,7 +365,7 @@ Below is the screenshot of the stats and the some of the components that have re
 <details>
   <summary>Performance Testing Desktop</summary>
 
-  ![Performance Testing Desktop](README-docs/performancetesting_desktop.png)
+  ![Performance Testing Desktop](README-docs/performance_desktop.png)
 </details>
 
 
@@ -374,7 +374,7 @@ Below is the screenshot of the stats and the some of the components that have re
 <details>
   <summary>Performance Testing Mobile</summary>
 
-  ![Performance Testing Mobile](README-docs/performancetesting_mobile.png)
+  ![Performance Testing Mobile](README-docs/performance_mobile.png)
 </details>
 
 I would like to improve the performance of my website on desktop and mobile but unfortunately it is out of my skills reach at the moment to fix the problems so I will leave it at amber which doesn't affect much of the website as everything still works at a good standard.
