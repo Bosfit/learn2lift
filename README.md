@@ -244,3 +244,5 @@ I made the footer green toned to continue with blue and green toned theme and to
 - [Balsamiq](https://balsamiq.com/)
 - [W3C HTML Validation Service](https://validator.w3.org/)
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [Responsive Design Checker](https://responsivedesignchecker.com/)
+
