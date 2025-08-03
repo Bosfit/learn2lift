@@ -31,6 +31,9 @@ No experience or fancy gear required, just bring yourself and a willingness to l
   - [Languages](#languages)  
   - [Libraries & Framework](#libraries-framework)  
   - [Tools](#tools)  
+- [Testing](#testing)  
+  - [Bugs](#bugs)
+  - [Responsiveness Tests](#responsiveness-tests)    
 
 ---
 
@@ -245,4 +248,51 @@ I made the footer green toned to continue with blue and green toned theme and to
 - [W3C HTML Validation Service](https://validator.w3.org/)
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 - [Responsive Design Checker](https://responsivedesignchecker.com/)
+
+
+---
+
+
+## Testing
+
+### Bugs
+
+### Responsiveness Tests
+
+To test the responsiveness, I have launched the website very early on. I tested the deployed versions of the website using external website [Responsive Design Checker](https://responsivedesignchecker.com/) and looked at how the website looks within different devices and sizes. Below is the result.
+
+<details>
+  <summary>Responsiveness Big Screen</summary>
+
+  ![Responsiveness Big Screen](README-docs/responsivess_2.png)
+</details>
+
+<details>
+  <summary>Responsiveness Medium Screen</summary>
+
+  ![Responsiveness Medium Screen](README-docs/responsiveness_1.png)
+</details>
+
+<details>
+  <summary>Responsiveness Small Screen</summary>
+
+  ![Responsiveness Small Screen](README-docs/responsiveness_3.png)
+</details>
+
+
+Final Test Results
+
+| Size | Device Example         | Navigation | Element Alignments | Content Placement | Functionality | Notes                                              |
+|------|-----------------------|------------|--------------------|-------------------|---------------|----------------------------------------------------|
+| sm   | Samsung Galaxy S20    | Good       | Good               | Good              | Good          |                                                    |
+| sm   | iPhone 11 PRO         | Good       | Good               | Good              | Good          | Updated font size of the start area                |
+| sm   | iPhone 13 PRO MAX     | Good       | Good               | Good              | Good          | Updated header bottom margin to fit quiz container |
+| md   | iPad MINI             | Good       | Good               | Good              | Good          |                                                    |
+| md   | Galaxy Tab S7         | Good       | Good               | Good              | Good          |                                                    |
+| md   | iPad Air              | Good       | Good               | Good              | Good          |                                                    |
+| lg   | iPad Pro              | Good       | Good               | Good              | Good          |                                                    |
+| xl   | Mackbook Air          | Good       | Good               | Good              | Good          |                                                    |
+| xl   | HP Stream Laptop      | Good       | Good               | Good              | Good          |                                                    |
+| xxl  | Dell Lattitude        | Good       | Good               | Good              | Good          | Updated font weight for support headings           |
+| xxl  | Desktop               | Good       | Good               | Good              | Good          |                                                    |
 
