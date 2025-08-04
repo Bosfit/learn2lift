@@ -37,11 +37,12 @@ No experience or fancy gear required, just bring yourself and a willingness to l
   - [Code Validation](#code-validation)  
     - [HTML](#html) 
     - [CSS](#css)  
-  - [User Story Testing](#user-story-testing) 
   - [Accessibility Testing](#accessibility-testing)   
   - [Performance Testing](#performance-testing)  
   - [Browser Testing](#browser-testing)  
-- [Deployment](#deployment)    
+  - [User Story Testing](#user-story-testing) 
+- [Deployment](#deployment)
+- [Credits](#credits)    
 
 
 ---
@@ -257,6 +258,8 @@ I made the footer green toned to continue with blue and green toned theme and to
 - [W3C HTML Validation Service](https://validator.w3.org/)
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 - [Responsive Design Checker](https://responsivedesignchecker.com/)
+- [WAVE Tool](https://wave.webaim.org/)
+- [Page Speed Insights](https://pagespeed.web.dev/)
 
 
 ---
@@ -332,12 +335,6 @@ I tested my style.css file and it came back with no errors.
 
 ![CSS Validation](README-docs/css_validation.png)
 
-
-### User Story Testing
-
-
-
-
 ### Accessibility Testing
 
 I used the [WAVE Tool](https://wave.webaim.org/) to test my website and to tell me if web content on my website is accessible to individuals with diverse needs.
@@ -346,11 +343,13 @@ No big errors were raised but there were some contrast errors and alerts display
 
 ![WAVE Tool](README-docs/wave_tool_testing.png)
 
-I made some changes to my code and layout of the website to reduce or get rid of the errors and alerts that I got as shown below.
+I made some changes to my code and layout of the website to reduce or get rid of the errors and alerts that I got as shown below. I changed the colours of the footer and some of the buttons to primary colour to improve the contrast of them. I changed the RGB of the secondary colour to improve the contrast as the headings had contrast errors which now it is fixed.
 
-![WAVE Tool](README-docs/)
+Below shows the results for desktop and mobile. As you can see the desktop only has 4 contrast errors now which is mostly the navbar page text which the mobile does not have that problem.
 
+![WAVE Tool Desktop](README-docs/wave_tool_desktop.png)
 
+![WAVE Tool Mobile](README-docs/wave_tool_mobile.jpg)
 
 ### Performance Testing
 
@@ -381,8 +380,80 @@ I would like to improve the performance of my website on desktop and mobile but 
 
 ### Browser Testing
 
+The Learn2Lift website was viewed and tested for bugs using a variety of browsers. I tested the website using Firefox, Google Chrome, and Microsoft Edge. I checked the console logs for each which there are not problems with it. The layout and look of the website on each browser looks good with no differences or problems.
+
+<details>
+  <summary>Browser Testing Chrome</summary>
+
+  ![Browser Testing Chrome](README-docs/browser_testing_chrome.png)
+</details>
+
+<details>
+  <summary>Browser Testing Microsoft Edge</summary>
+
+  ![Browser Testing Microsoft Edge](README-docs/browser_testing_edge.png)
+</details>
+
+<details>
+  <summary>Browser Testing Firefox</summary>
+
+  ![Browser Testing Firefox](README-docs/browser_testing_firefox.png)
+</details>
 
 
+### User Story Testing
+
+- As a user, I want to feel part of a community. 
+  - Did I achieve it? YES
+  - How? Community and meeting new people was mentioned a few times on the website alongside pictures of people in a group.
+
+
+- As a user, I want the website to feel welcoming, not intimidating.  
+  - Did I achieve it? YES
+  - How? I made sure the website was easy to follow and straight to the point without using words or terms that beginners may not know about fitness and communicated in a way that show people of all skills can join.
+
+- As a user, I want to grasp the core message within 10 seconds.  
+  - Did I achieve it? YES
+  - How? I made sure the website had a tag line, description and image in the header that explained what the website was about in a clear and concise way.
+
+- As a user, I want information presented clearly and concisely. 
+  - Did I achieve it? YES
+  - How? I made sure the website had text displayed in an organised way and easy to read. Made sure each part was split up instead of everthing together, easier to follow.
+
+- As a user, I want intuitive, easy-to-use navigation.
+  - Did I achieve it? YES
+  - How? I made sure the website was easy to use by making each part of the website follow the same layout and theme so it looks the same and the user will know what to expect and designed everything on one page so all the information was displayed on one page. 
+  
+- As a user, I want the site to work well on any device.  
+  - Did I achieve it? YES
+  - How? I tested the website using [Responsive Design Checker](https://responsivedesignchecker.com/) and I didn't have any problems.
+
+- As a user, I want the content to be accessible to people with diverse needs.  
+  - Did I achieve it? YES
+  - How? I tested the website on [WAVE Tool](https://wave.webaim.org/) and didn't get any major errors and only 4 contrast on desktop and not mobile. The 4 contrast errors will not affect the viewing of the website.
+
+
+  ---
 
 
 ## Deployment
+
+The Learn2Lift website was deployed early in the process to GitHub pages via the following steps:
+
+Navigate to the repository on GitHub and click on Settings.
+
+In the side navigation and select Pages.
+
+In the None dropdown and choose Main.
+
+Click on the Save button.
+
+The website is now live at [Learn2Lift](https://github.com/Bosfit/learn2lift)
+
+Any changes required to the website, they can be made, committed and pushed to GitHub.
+
+
+  ---
+  
+
+## Credits
