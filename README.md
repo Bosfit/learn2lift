@@ -233,7 +233,6 @@ The classes section contains buttons that takes you to a booking system website 
 </details>
 
 
-
 ### Footer
 
 I made the footer green toned to continue with blue and green toned theme and to separate to the above main section where I mostly used blue. The footer is very simple with their contact information and opening times.
@@ -249,6 +248,17 @@ I made the footer green toned to continue with blue and green toned theme and to
 
   ![Footer Small Screen](README-docs/footer_small.png)
 </details>
+
+### 404 Page
+
+In the case of a link or page not working. I designed a 404 page that will display the clear message of it not working and also a button that takes you back to the home page.
+
+<details>
+  <summary>404 Page</summary>
+
+  ![404 Page](README-docs/404_page.png)
+</details>
+
 
 ---
 
