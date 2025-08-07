@@ -477,3 +477,5 @@ Any changes required to the website, they can be made, committed and pushed to G
   
 
 ## Credits
+
+I would like to thank Thomas Cowen and Simen Daehlin for their advice and support as well as the members in my class group.
