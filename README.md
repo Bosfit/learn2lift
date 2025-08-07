@@ -140,10 +140,6 @@ We use Bootstrap’s grid and custom media queries to ensure the layout adapts g
 
 ---
 
-- [⬆️ Back to the top](#learn 2 lift-master-the-basics-build-your-confidence)
-
----
-
 ## Features
 
 Layout is easy to use and navigate. It is designed in a way that everything lines up and sections are split and displayed equally. Users can easily navigate between the different sections of the website and it is kept in the same format to keep it simple to understand with access to additional features like contact information.
