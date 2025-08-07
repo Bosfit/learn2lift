@@ -27,6 +27,7 @@ No experience or fancy gear required, just bring yourself and a willingness to l
   - [Why Us Section](#why-us-section)
   - [Classes Section](#classes-section)
   - [Footer](#footer) 
+  - [404 Page](#404-page)
 - [Technologies Used](#technologies-used)  
   - [Languages](#languages)  
   - [Libraries & Framework](#libraries-framework)  
