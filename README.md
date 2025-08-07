@@ -93,11 +93,23 @@ No experience or fancy gear required, just bring yourself and a willingness to l
 
 Wireframes were designed using Balsamiq tool. I designed it in mobile version, tablet version, laptop version. It is one page website which focuses on alignment and clean design. The top part of the website looks the same throughout in terms of layout. I made sure due to having lots of boxes that it was responsive when it was viewed on mobile and tablet view.
 
-![Wireframe Desktop](README-docs/wireframe_desktop.png)
+<details>
+  <summary>Wireframe Desktop</summary>
+
+ ![Wireframe Desktop](README-docs/wireframe_desktop.png)
+</details>
+
+<details>
+  <summary>Wireframe Tablet</summary>
 
 ![Wireframe Tablet](README-docs/wireframe_tablet.png)
+</details>
+
+<details>
+  <summary>Wireframe Mobile</summary>
 
 ![Wireframe Mobile](README-docs/wireframe_mobile.png)
+</details>
 
 
 ---
