@@ -5,25 +5,24 @@
 :root {
     --primary-font: "Roboto", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-color: #05668D; /* blue */
-    --secondary-color: #098960; /* green */
-    --tertiary-color: #10a092; /* light green */
-   /* --highlight-color: #416a8e; /* blue */
- /*   --highlight-color-light: #7a9fc2; /* light blue */
+    --primary-color-blue: #05668D;
+    --secondary-color-green: #098960;
+    --tertiary-color-light-green: #10a092;
+    --white-color: #ffffff;
 }
 
 /* Global styles */
 
 body {
     font-family: var(--primary-font);
-    padding-top: 45px; /* pushes the top of the header down under fixed navbar */
+    padding-top: 45px;
 }
 
 h1,
 h2,
 h3 {
     font-family: var(--primary-font);
-    color: var(--secondary-color);
+    color: var(--secondary-color-green);
 }
 
 h1,
@@ -44,7 +43,7 @@ p {
 }
 
 .section {
-    padding-top: 4rem; /* prevent navbar overlap */
+    padding-top: 4rem;
 }
 
 /* Buttons */
@@ -52,13 +51,13 @@ p {
 .custom-button-filled {
     border: 2px solid var(--highlight-color);
     background-color: var(--highlight-color);
-    color: white;
+    color: var(--white-color);
 }
 
 .custom-button-filled:hover {
-    border: 2px solid var(--secondary-color);
-    background-color: var(--secondary-color);
-    color: white;
+    border: 2px solid var(--secondary-color-green);
+    background-color: var(--secondary-color-green);
+    color: var(--white-color);
 }
 
 .custom-button-outline {
@@ -69,28 +68,37 @@ p {
 
 .custom-button-outline:hover {
     background-color: var(--highlight-color);
-    color: white
+    color: var(--white-color);
 }
+
 
 /* Navbar */
 
 #navbar {
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-blue);
 }
 
 #navbar .logo {
     width: 30px;
 }
 
+.fa-solid.fa-dumbbell {
+
+color: var(--white-color);
+
+}
+
+
+
 /* Header */
 
 #header .lead {
     font-family: var(--secondary-font);
-    color: var(--secondary-color);
+    color: var(--secondary-color-green);
 }
 
 #header .display-3 {
-color: var(--primary-color);
+color: var(--primary-color-blue);
 }
 
 .main-header {
@@ -125,6 +133,7 @@ font-size:14px;
 
 
 /* why us icons size */
+
 img.card-img-top.whyus {
 
   width: 165px;
@@ -137,9 +146,6 @@ img.card-img-top.whyus {
   padding-bottom:10px;
 
 }
-
-
-
 
 
 /*Benefits Sections*/
@@ -177,7 +183,7 @@ img.card-img-top {
 
 h4.card-title.display-5.fw-bold {
 
- color: var(--primary-color);
+ color: var(--primary-color-blue);
 
 }
 
@@ -197,7 +203,6 @@ height: 4rem;
 
 #classes {
     background: url('../images/shoulder-press-class.png') no-repeat center/cover;
-    /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
 }
@@ -207,8 +212,7 @@ height: 4rem;
     background-color: rgba(0, 0, 0, .8);
     padding: 25px;
     text-align: center;
-    /* Creates a grid of meetup time dives over the background image */
-    border: 14px solid white;
+    border: 14px solid #ffffff;
 }
 
 h4.fa-exercise.display-5.fw-bold {
@@ -219,11 +223,12 @@ padding-bottom: 20px;
 }
 
 /* Class booking buttons */
+
  .class-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: var(--primary-color);
-    color: white;
+    background-color: var(--primary-color-blue);
+    color: var(--white-color);
     text-decoration: none;
     border-radius: 4px;
     font-size: 16px;
@@ -233,7 +238,7 @@ padding-bottom: 20px;
   }
 
   .class-button:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color-green);
   }
 
 
@@ -241,13 +246,13 @@ padding-bottom: 20px;
 /* Footer / contact */
 
 #contact {
-    background-color: var(--primary-color);
-    color: white;
+    background-color: var(--primary-color-blue);
+    color: var(--white-color);
     padding-bottom: 3rem;
 }
 
 #contact h2 {
-    color: white;
+    color: var(--white-color);
 }
 
 #contact .sub-heading-color {
@@ -255,7 +260,7 @@ padding-bottom: 20px;
 }
 
 #contact i {
-    color: var(--secondary-color);
+    color: var(--secondary-color-green);
     font-size: 1.2rem;
     margin-right: 15px;
 }
@@ -272,8 +277,6 @@ h3.sub-heading-color {
 
 
 
-
-/*Responsive header title, removes break for tablet so title is longer */
 @media (min-width: 577px) and (max-width: 991px) {
   .responsive-br {
     display: none;
@@ -289,15 +292,6 @@ h1.display-3.fw-bold {
     font-size: clamp(3rem, 8vw, 4rem);
   line-height: 1.1;
 }
-
-/* 
-  p {
-    custom gutter
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  */
 
   #benefits {
     padding-top: 14px;
@@ -317,14 +311,11 @@ h1.display-3.fw-bold {
 
 .header-image {
 
-    /* adding padding to the left and right of the header image to match with the header text  */
-
     padding-left: 1rem;
     padding-right: 1rem;
 
 }
 
-/* header paragraph text Section */
 
 p.my-4.side-padding {
 
@@ -346,7 +337,9 @@ p.my-4.side-padding {
     padding-bottom: 10px;
 }
 
-   /* Padding for the why us boxes */
+
+/* Padding for the why us boxes */
+
 section#whyus.container.section {
 
  padding-left: 22px;
@@ -355,7 +348,7 @@ section#whyus.container.section {
 }
 
 h4.card-title.display-5.fw-bold {
-    color: var(--primary-color);
+    color: var(--primary-color-blue);
     font-size: 19px;
     padding-bottom:12px;
 }
@@ -380,7 +373,8 @@ p.whyus.card-text {
 }
 
 
-   /* why us icons size */
+/* why us icons size */
+
 img.card-img-top.whyus {
 
  width: 100px;
@@ -392,7 +386,6 @@ img.card-img-top.whyus {
 
 /* Benefits Section */
 
-   /* Padding for the benefits boxes */
 section#benefits.container.section {
 
  padding-left: 22px;
