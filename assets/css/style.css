@@ -119,7 +119,7 @@ div.whyus.card-body.text-center {
     padding-top:30px;
 }
 
-h4.whyus.card-title {
+h3.whyus.card-title {
 
 font-size: 20px;
 
@@ -181,7 +181,7 @@ img.card-img-top {
   display: block;  
 }
 
-h4.card-title.display-5.fw-bold {
+h3.card-title.display-5.fw-bold {
 
  color: var(--primary-color-blue);
 
@@ -215,8 +215,9 @@ height: 4rem;
     border: 14px solid #ffffff;
 }
 
-h4.fa-exercise.display-5.fw-bold {
+h3.fa-exercise.display-5.fw-bold {
 
+color: var(--white-color);    
 font-size: 25px;
 padding-bottom: 20px;
 
@@ -347,7 +348,7 @@ section#whyus.container.section {
 
 }
 
-h4.card-title.display-5.fw-bold {
+h3.card-title.display-5.fw-bold {
     color: var(--primary-color-blue);
     font-size: 19px;
     padding-bottom:12px;
@@ -436,7 +437,7 @@ height: 6rem;
 
 }
 
-h4.card-title.display-5.fw-bold {
+h3.card-title.display-5.fw-bold {
 padding-bottom:10px;
 
 }
