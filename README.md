@@ -6,7 +6,7 @@ We break down each movement step-by-step, giving you hands-on guidance and pract
 
 No experience or fancy gear required, just bring yourself and a willingness to learn! Whether you’re looking to get stronger, move better, or simply try something new, Learn 2 Lift is the perfect first step.
 
-![Website Screenshot](README-docs/website-screenshot.png)
+![Website Screenshot](docs/website-screenshot.png)
 
 ---
 
@@ -99,19 +99,19 @@ Wireframes were designed using [Balsamiq tool](https://balsamiq.com/). I designe
 <details>
   <summary>Wireframe Desktop</summary>
 
- ![Wireframe Desktop](README-docs/wireframe_desktop.png)
+ ![Wireframe Desktop](docs/wireframe-desktop.png)
 </details>
 
 <details>
   <summary>Wireframe Tablet</summary>
 
-![Wireframe Tablet](README-docs/wireframe_tablet.png)
+![Wireframe Tablet](docs/wireframe-tablet.png)
 </details>
 
 <details>
   <summary>Wireframe Mobile</summary>
 
-![Wireframe Mobile](README-docs/wireframe_mobile.png)
+![Wireframe Mobile](docs/wireframe-mobile.png)
 </details>
 
 
@@ -127,7 +127,12 @@ We chose [Roboto](https://fonts.google.com/specimen/Roboto), a clean, sans-serif
 
 Our primary colour is a soft green to evoke wellness and approachability. All hues are cool-toned to maintain a calm, inviting feel rather than an aggressive one.
 
-![Colour Palette](README-docs/colour-palette.png)
+![Colour Palette](docs/colour-palette.png)
+
+I had to change some of the colours because when I tested it on [WAVE Tool](https://wave.webaim.org/), I had some accessibility and contrast problems especially the green. I made the blue as the main colour and I changed the green from #6AB49C to #098960
+
+
+![New Colour Palette](docs/Colour-Palette-new.png)
 
 ### Images
 
@@ -139,7 +144,7 @@ Favicon icons and logo used are from [Flaticon](https://www.flaticon.com/free-ic
 
 We use Bootstrap’s grid and custom media queries to ensure the layout adapts gracefully across all screen sizes:
 
-![Media Queries](README-docs/media-queries.png)
+![Media Queries](docs/media-queries.png)
 
 ---
 
@@ -156,13 +161,13 @@ Navbar is responsive to different screen sizes with clickable features that take
 <details>
   <summary>Navbar Large Screen</summary>
 
-  ![Navbar Large Screen](README-docs/navbar.png)
+  ![Navbar Large Screen](docs/navbar.png)
 </details>
 
 <details>
   <summary>Navbar Small Screen</summary>
 
-  ![Navbar Small Screen](README-docs/navbar_2.png)
+  ![Navbar Small Screen](docs/navbar-2.png)
 </details>
 
 ### Header
@@ -174,13 +179,13 @@ I tried to make sure that in large, medium and small screen that the title heade
 <details>
   <summary>Header Large Screen</summary>
 
-  ![Header Large Screen](README-docs/header_large.png)
+  ![Header Large Screen](docs/header-large.png)
 </details>
 
 <details>
   <summary>Header Small Screen</summary>
 
-  ![Header Small Screen](README-docs/header_medium.png)
+  ![Header Small Screen](docs/header-medium.png)
 </details>
 
 
@@ -193,19 +198,19 @@ In terms of layout, I tried again to align all the boxes together and in line wi
 <details>
   <summary>Main Section Large Screen</summary>
 
-  ![Main Section Large Screen](README-docs/mainsection_large.png)
+  ![Main Section Large Screen](docs/mainsection-large.png)
 </details>
 
 <details>
   <summary>Main Section Small Screen</summary>
 
-  ![Main Section Small Screen](README-docs/mainsection_small2.png)
+  ![Main Section Small Screen](docs/mainsection-small2.png)
 </details>
 
 <details>
   <summary>Main Section Small Screen 2</summary>
 
-  ![Main Section Small Screen 2](README-docs/mainsection_small.png)
+  ![Main Section Small Screen 2](docs/mainsection-small.png)
 </details>
 
 ### Why Us Section
@@ -215,13 +220,13 @@ For the boxes surrounding the text and image, each section has their own padding
 <details>
   <summary>Main Section Samsung Phone Screen</summary>
 
-  ![Main Section Samsung Phone Screen](README-docs/samsung_galaxy.png)
+  ![Main Section Samsung Phone Screen](docs/samsung-galaxy.png)
 </details>
 
 <details>
   <summary>Main Section Iphone Screen</summary>
 
-  ![Main Section Iphone Screen](README-docs/iphone_XR.png)
+  ![Main Section Iphone Screen](docs/iphone-XR.png)
 </details>
 
 ### Classes Section
@@ -232,7 +237,7 @@ The classes section contains buttons that takes you to a booking system website 
 <details>
   <summary>Classes Booking Buttons</summary>
 
-  ![Classes Booking Buttons](README-docs/class_section_buttons.png)
+  ![Classes Booking Buttons](docs/class-section-buttons.png)
 </details>
 
 
@@ -243,13 +248,13 @@ I made the footer green toned to continue with blue and green toned theme and to
 <details>
   <summary>Footer Large Screen</summary>
 
-  ![Footer Large Screen](README-docs/footer_large.png)
+  ![Footer Large Screen](docs/footer-large.png)
 </details>
 
 <details>
   <summary>Footer Small Screen</summary>
 
-  ![Footer Small Screen](README-docs/footer_small.png)
+  ![Footer Small Screen](docs/footer-small.png)
 </details>
 
 ### 404 Page
@@ -259,7 +264,7 @@ In the case of a link or page not working. I designed a 404 page that will displ
 <details>
   <summary>404 Page</summary>
 
-  ![404 Page](README-docs/404_page.png)
+  ![404 Page](docs/404-page.png)
 </details>
 
 
@@ -273,10 +278,10 @@ In the case of a link or page not working. I designed a 404 page that will displ
 - HTML
 - CSS
 - JS
-- BOOTSTRAP
 
 ### Libraries & Framework
 
+- [Bootstrap](https://getbootstrap.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [Flaticon](https://www.flaticon.com/free-icons)  
 
@@ -300,7 +305,7 @@ In the case of a link or page not working. I designed a 404 page that will displ
 
 The website was thoroughly tested by using the console logs to ensure within Google to ensure if there are any errors, as shown in the image below, you can see that there are no bugs or errors.
 
-![Console Log](README-docs/console_log.png)
+![Console Log](docs/console-log.png)
 
 ### Responsiveness Tests
 
@@ -309,19 +314,19 @@ To test the responsiveness, I tested the deployed versions of the website using 
 <details>
   <summary>Responsiveness Big Screen</summary>
 
-  ![Responsiveness Big Screen](README-docs/responsivess_2.png)
+  ![Responsiveness Big Screen](docs/responsivess-2.png)
 </details>
 
 <details>
   <summary>Responsiveness Medium Screen</summary>
 
-  ![Responsiveness Medium Screen](README-docs/responsiveness_1.png)
+  ![Responsiveness Medium Screen](docs/responsiveness-1.png)
 </details>
 
 <details>
   <summary>Responsiveness Small Screen</summary>
 
-  ![Responsiveness Small Screen](README-docs/responsiveness_3.png)
+  ![Responsiveness Small Screen](docs/responsiveness-3.png)
 </details>
 
 
@@ -350,11 +355,11 @@ I used [W3C HTML Validation Service](https://validator.w3.org/) to test my HTML 
 
 I tested my index.html file and it came back with some errors and warnings, mainly in regards to my main element as shown below.
 
-![HTML Validation](README-docs/html_validation.png)
+![HTML Validation](docs/html-validation.png)
 
 Below is the updated version after I fixed the errors. I’ve redesigned the code to make sure all of my page content under a single main element and removed the extra main tags. The Benefits and Classes sections now live inside that one main, separated by hr's tags. Each section retains its unique id (whyus, benefits, class-section), so there are no duplicate IDs.
 
-![HTML Validation Correct](README-docs/html_validation_correct.png)
+![HTML Validation Correct](docs/html-validation-correct.png)
 
 #### CSS
 
@@ -362,7 +367,7 @@ I used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to tes
 
 I tested my style.css file and it came back with no errors.
 
-![CSS Validation](README-docs/css_validation.png)
+![CSS Validation](docs/css-validation.png)
 
 ### Accessibility Testing
 
@@ -370,15 +375,15 @@ I used the [WAVE Tool](https://wave.webaim.org/) to test my website and to tell 
 
 No big errors were raised but there were some contrast errors and alerts displayed.
 
-![WAVE Tool](README-docs/wave_tool_testing.png)
+![WAVE Tool](docs/wave-tool-testing.png)
 
 I made some changes to my code and layout of the website to reduce or get rid of the errors and alerts that I got as shown below. I changed the colours of the footer and some of the buttons to primary colour to improve the contrast of them. I changed the RGB of the secondary colour to improve the contrast as the headings had contrast errors which now it is fixed.
 
 Below shows the results for desktop and mobile. As you can see the desktop only has 4 contrast errors now which is mostly the navbar page text which the mobile does not have that problem.
 
-![WAVE Tool Desktop](README-docs/wave_tool_desktop.png)
+![WAVE Tool Desktop](docs/wave-tool-desktop.png)
 
-![WAVE Tool Mobile](README-docs/wave_tool_mobile.jpg)
+![WAVE Tool Mobile](docs/wave-tool-mobile.jpg)
 
 ### Performance Testing
 
@@ -388,21 +393,21 @@ The accessibility, best practices and SEO have came back all green but the perfo
 
 Below is the screenshot of the stats and the some of the components that have reduced the performance of the website in desktop and mobile.
 
-![Performance Testing Desktop](README-docs/performancetesting_desktop.png)
+![Performance Testing Desktop](docs/performancetesting-desktop.png)
 
 <details>
   <summary>Performance Testing Desktop</summary>
 
-  ![Performance Testing Desktop](README-docs/performance_desktop.png)
+  ![Performance Testing Desktop](docs/performance-desktop.png)
 </details>
 
 
-![Performance Testing Mobile](README-docs/performancetesting_mobile.png)
+![Performance Testing Mobile](docs/performancetesting-mobile.png)
 
 <details>
   <summary>Performance Testing Mobile</summary>
 
-  ![Performance Testing Mobile](README-docs/performance_mobile.png)
+  ![Performance Testing Mobile](docs/performance-mobile.png)
 </details>
 
 I would like to improve the performance of my website on desktop and mobile but unfortunately it is out of my skills reach at the moment to fix the problems so I will leave it at amber which doesn't affect much of the website as everything still works at a good standard.
@@ -414,19 +419,19 @@ The Learn2Lift website was viewed and tested for bugs using a variety of browser
 <details>
   <summary>Browser Testing Chrome</summary>
 
-  ![Browser Testing Chrome](README-docs/browser_testing_chrome.png)
+  ![Browser Testing Chrome](docs/browser-testing-chrome.png)
 </details>
 
 <details>
   <summary>Browser Testing Microsoft Edge</summary>
 
-  ![Browser Testing Microsoft Edge](README-docs/browser_testing_edge.png)
+  ![Browser Testing Microsoft Edge](docs/browser-testing-edge.png)
 </details>
 
 <details>
   <summary>Browser Testing Firefox</summary>
 
-  ![Browser Testing Firefox](README-docs/browser_testing_firefox.png)
+  ![Browser Testing Firefox](docs/browser-testing-firefox.png)
 </details>
 
 
