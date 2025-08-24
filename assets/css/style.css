@@ -102,7 +102,7 @@ color: var(--primary-color);
 /* Why us sections */
 
 #whyus {
-    padding-top: 14px;
+    padding-top: 60px;
     padding-bottom:32px;
 }
 
@@ -149,7 +149,7 @@ img.card-img-top.whyus {
 }
 
 #benefits {
-    padding-top: 14px;
+    padding-top: 60px;
     padding-bottom:32px;
 }
 
@@ -191,7 +191,7 @@ height: 4rem;
 /* Classes Section */
 
 #class-section {
-    padding-top: 14px;
+    padding-top: 60px;
     padding-bottom:40px;
 }
 
