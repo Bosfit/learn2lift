@@ -303,7 +303,7 @@ In the case of a link or page not working. I designed a 404 page that will displ
 
 ### Bugs
 
-The website was thoroughly tested by using the console logs to ensure within Google to ensure if there are any errors, as shown in the image below, you can see that there are no bugs or errors.
+The website was fairly tested by using the console logs to ensure within Google to ensure if there are any errors, as shown in the image below, you can see that there are no bugs or errors within the google console.
 
 ![Console Log](docs/console-log.png)
 
