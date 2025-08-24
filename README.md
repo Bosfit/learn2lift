@@ -6,6 +6,8 @@ We break down each movement step-by-step, giving you hands-on guidance and pract
 
 No experience or fancy gear required, just bring yourself and a willingness to learn! Whether you’re looking to get stronger, move better, or simply try something new, Learn 2 Lift is the perfect first step.
 
+![Website Screenshot](README-docs/website-screenshot.png)
+
 ---
 
 ## Contents
